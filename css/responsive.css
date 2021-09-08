@@ -1,0 +1,22 @@
+@media only screen and (max-width:991px) {
+    #header .navbar .navbar-nav {
+
+        padding-left: 0;
+    }
+    #header .navbar .nav-item {
+        margin-left: 0;
+    }
+    .nav-link {
+        display: inline-block;
+    }
+    .demo {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:767px){
+    #service .arrowImg{
+       display: none;
+    }
+}

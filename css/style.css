@@ -1,0 +1,262 @@
+
+/*==================
+Common CSS
+===================*/
+
+
+/*==================
+Top Header
+===================*/
+#top_header {
+    padding: 15px 0;
+}
+#top_header #top_menu .top_left_icon{
+    color: #67b8e8;
+    font-size: 16px;
+}
+
+#top_header #top_menu .top_socialMdeia .top_right_icon{
+    border-radius: 100%;
+    background-color: #4a4a4a;
+    color: #fff !important;
+    font-size: 30px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+#top_header #top_menu .top_socialMdeia .top_right_icon:hover {
+    background-color: #efc478;
+    color: transparent;
+}
+
+/*==================
+Header
+===================*/
+#header .navbar{
+    padding: 25px 0;
+    background-color: #5eb4e7!important ;
+}
+
+#header .navbar .navbar-brand{
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    color: #fff;
+}
+#header .navbar .navbar-nav {
+    margin: auto;
+    padding-left: 340px;
+}
+#header .navbar .nav-item {
+    margin-left: 20px;
+}
+#header .navbar .nav-link {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    padding: 10px 5px;
+}
+#header .navbar .nav-item:hover .nav-link {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    background-color: white;
+    color: #5eb4e7 ;
+    border-radius: 10px;
+}
+/*==================
+  Banner
+===================*/
+#banner {
+    padding: 50px 0;
+}
+#banner h1{
+    color: #5eb4e7;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#banner h1 strong {
+    font-weight: 900;
+}
+#banner .banner_btn {
+    text-align: center;
+    padding: 20px 0;
+}
+#banner .banner_btn .btn {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 15px;
+}
+#banner img {
+    max-width: 100%;
+}
+/*==================
+  Service
+===================*/
+
+#service {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+#service img{
+    max-width: 100%;
+}
+#service .arrowImg {
+    width: 100%;
+    display: block;
+}
+#service h2 {
+    color: #313131;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+#service h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    
+    color: #f0c478;
+}
+#service .left2H4{
+    color: #67b8e8;
+}
+#service .right2H4{
+    color: #67b8e8;
+}
+#service p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #2f2f2f;
+}
+
+/* =================
+    Reference
+==================== */
+#reference {
+    padding: 50px 0;
+}
+#reference h2 {
+    color: #313131;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+#reference img {
+    max-width: 100%;
+}
+#reference p {
+    color: #71bdea;
+    margin-top: 30px;
+}
+/* Reference Images hover */
+.contenthover{
+    padding: 70px 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    border-radius: 20% !important;
+
+}
+.contenthover h6 {
+    color: #313131;
+    font-weight: 700;
+}
+/* =================
+    Brand Logo
+==================== */
+
+#brandLogo {
+    padding: 50px 0;
+    background-color: #fafafa;
+}
+#brandLogo h2{
+    color: #313131;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+#brandLogo .col-md-3 {
+   background-image: url(../img/BrandLogo.png);
+   width: 330px;
+   height: 190px;
+   background-position: -201px -76px;
+}
+#brandLogo .col-md-3:nth-child(2) {
+    background-position: -460px -76px;
+}
+#brandLogo .col-md-3:nth-child(3){
+    background-position: -706px -76px;
+}
+#brandLogo .col-md-3:nth-child(4){
+    background-position: -960px -76px;
+}
+#brandLogo .col-md-3:nth-child(5){
+    background-position: -204px -256px;
+}
+#brandLogo .col-md-3:nth-child(6){
+    background-position: -458px -270px;
+}
+#brandLogo .col-md-3:nth-child(7){
+    background-position: -710PX -270PX;
+}
+#brandLogo .col-md-3:nth-child(8){
+    background-position: -950PX -270px;
+}
+#brandLogo .col-md-3:hover {
+    background-image: url(../img/HoverbrandLogo.png);
+    cursor: pointer;
+    transition: 1s;
+}
+
+/* =================
+  Footer
+==================== */
+
+#footer {
+    padding: 50px 0;
+    background-color: #313131;
+    color: #fff;
+}
+#footer a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#footer h4 a {
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    text-transform: none;
+}
+#footer .footer_SM {
+    color: #313131;
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+} 
+
+#footer .footer_SM:hover {
+    background-color: #efc478;
+    color: #fff;
+}
+/* =================
+  Footer Botoom
+==================== */
+
+#footer_bottom {
+    padding: 20px 0;
+}
+#footer_bottom p {
+    text-transform: uppercase;
+}
+#footer_bottom p span {
+    margin: 0 10px;
+}
+
+.list-group-item {
+    border: none;
+}
